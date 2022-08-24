@@ -1,0 +1,37 @@
+/**
+*@DatabaseName StuResSystemDBTest
+*@Author ZZY
+*@Date 2022/7/30
+**/
+-- admin表记录
+INSERT INTO admin VALUES ('admin', '管理员', '123456');
+
+-- class表记录
+INSERT INTO class VALUES ('100001', 'TestClass1');
+INSERT INTO class VALUES ('100002', 'TestClass2');
+-- student表记录
+INSERT INTO student VALUES('202024100442','Test1','123456','100001','男','00000000000');
+INSERT INTO student VALUES('202024100443','Test2','123456','100001','女','00000000000');
+INSERT INTO student VALUES('202024100444','Test3','123456','100002','男','00000000000');
+INSERT INTO student VALUES('202024100445','Test4','123456','100002','女','00000000000');
+-- teacher表记录
+INSERT INTO teacher VALUES ('200824100001', '牛老师', '123456', '男', '12345678910');
+
+-- course表记录
+INSERT INTO course VALUES ('242072', '200824100001','计算机技术基础（双语）','20-2020-9');
+INSERT INTO course VALUES ('243325', '200824100001','数据库技术与应用','20-2022-2');
+
+
+-- takes表记录
+-- Test1
+INSERT INTO takes VALUES ('1', '202024100442', '242072', '60');
+INSERT INTO takes VALUES ('2', '202024100442', '243325', '60');
+-- Test2
+INSERT INTO takes VALUES ('3', '202024100443', '242072', '70');
+INSERT INTO takes VALUES ('4', '202024100443', '243325', '70');
+-- Test3
+INSERT INTO takes VALUES ('5', '202024100444', '242072', '80');
+INSERT INTO takes VALUES ('6', '202024100444', '243325', '80');
+-- Test4
+INSERT INTO takes VALUES ('7', '202024100445', '242072', '90');
+INSERT INTO takes VALUES ('8', '202024100445', '243325', '90');

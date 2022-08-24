@@ -1,5 +1,5 @@
 /**
-*@DatabaseName StuResSystemDB.schema.test
+*@DatabaseName StuResSystemDBTest.schema
 *@Author ZZY
 *@Date 2022/7/30
 **/

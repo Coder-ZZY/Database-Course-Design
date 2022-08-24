@@ -1,5 +1,5 @@
 /**
-*@DatabaseName StuResSystemDBdata
+*@DatabaseName StuResSystemDB
 *@Author ZZY
 *@Date 2022/7/11
 **/

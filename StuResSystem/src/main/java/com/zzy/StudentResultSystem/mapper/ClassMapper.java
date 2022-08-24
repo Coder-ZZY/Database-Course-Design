@@ -6,7 +6,7 @@ import org.apache.ibatis.annotations.*;
 import java.util.List;
 
 /**
- * @ClassName ClassMappe
+ * @ClassName ClassMapper
  * @Author ZZY
  **/
 @Mapper
